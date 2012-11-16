@@ -2,4 +2,6 @@ MYNCCL
 ======
 
 this is  my NCCL
-# lesson 0 "how to 
+## Lesson 0
+ * how to use github 
+goto to web
