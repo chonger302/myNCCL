@@ -65,6 +65,8 @@ output:
 
 global+1 at 0x804a018
 
+//第三题答案 
+
 4
 #include <stdio.h>
 
@@ -116,6 +118,8 @@ a at 0x64
 b at 0x65
 c at 0x66
 d at (nil)
+
+// 不同的数据类型在内存中的存储地址也不一样
 
 6
 #include <stdio.h>
