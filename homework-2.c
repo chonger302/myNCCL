@@ -45,6 +45,8 @@ a at 0xbfdd2c04
 b at 0xbfdd2c00
 c at 0xbfdd2bfc
 
+/* 第一题回答：全局变量跟局部变量在系统编译时在内存中分别放在不同的存储单元。*/
+
 3
 #include <stdio.h>
 
