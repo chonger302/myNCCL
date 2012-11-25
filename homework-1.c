@@ -12,4 +12,11 @@ int main()
 }
 回传值 0
 
+#3
+int main(void
+{
+    return 0;
+}
+prog.c:2: error: expected ‘;’, ‘,’ or ‘)’ before ‘{’ token
+
 
