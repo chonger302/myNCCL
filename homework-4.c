@@ -2,20 +2,20 @@
 
 int main(void)
 {
-    int A,B;
+    int first,second;
     
-    printf("please input a number A : ");
-    scanf("%d", &A);
+    printf("please input a number first : ");
+    scanf("%d", &first);
     
-    while ( A != B )
+    while ( first != second )
        
      {
-       printf("please input a number B : ");
-        scanf("%d", &B);
+       printf("please input a number second : ");
+        scanf("%d", &second);
         
-        if   (A < B )
+        if   (first < second )
          printf("max\n");
-        if   (A > B )   
+        if   (first > second )   
          printf("min!\n");   
      } 
      
