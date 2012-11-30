@@ -16,7 +16,7 @@ int main(void)
         if   (A < B )
          printf("max\n");
         if   (A > B )   
-         printf("mix!\n");   
+         printf("min!\n");   
      } 
      
     printf("very,good!\n");
