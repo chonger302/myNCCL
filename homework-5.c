@@ -22,5 +22,33 @@ int main(void)
     return 0;
 }
 
+********************************************************************************
+### 3
+int main(void)
 
+{
+  int i,j;
+  
+  printf("Sun\tMon\tTue\tWed\tThu\tFri\tSat\n");
+
+  for(j = 1; j < 5; j++)
+    printf(" \t");
+
+  for(i = 1; i <= 30; i++)
+    {
+      printf(" %d", i );
+      printf("\t");
+      
+      if((i + 4) % 7 == 0)
+        {    
+         printf("\n");
+         printf("\n");
+        } 
+
+     }
+
+   printf("\n");
+
+   return 0;
+}
 
