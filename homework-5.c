@@ -22,6 +22,32 @@ int main(void)
     return 0;
 }
 
+*******************************************************************************
+### 2
+
+#include <stdio.h>
+
+int  main()
+
+ {
+     int i,max,a[5];
+
+     printf("\nplease input five numbers:\n");
+
+     for (i = 0;i < 5; i++)
+        scanf("%d",&a[i]);
+
+     max = a[0];
+
+     for (i = 1; i < 5; i++)
+         if (a[i] > max) max = a[i];
+
+     printf("max = %d\n",max);
+
+     return 0;
+
+ }
+
 ********************************************************************************
 ### 3
 #include <stdio.h>
