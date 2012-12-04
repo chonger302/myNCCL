@@ -32,16 +32,15 @@ int main(void)
     for (i = 1; i <= 1000; i++)
     {   
         for (j = 1, sub = 0; j < i; j++)
-        {
-          
-          if( i % j == 0)
-              sub=sub+j;
-        }
+          {
+            if( i % j == 0)
+                sub=sub+j;
+          }
 
         if (sub == i )
             printf("%d\n",sub);
  
-     }
+    }
 
     return 0;
 }
