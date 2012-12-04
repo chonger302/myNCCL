@@ -27,17 +27,21 @@ int main(void)
 
 int main(void)
 {       
-    int i,j;
+    int i,j,sub;
 
-    for (i = 1; i <= 100; i++)
+    for (i = 1; i <= 1000; i++)
     {   
-        for (j = 1; j < i; j++)
+        for (j = 1, sub = 0; j < i; j++)
         {
+          
           if( i % j == 0)
-          printf("%d",j);
+              sub=sub+j;
         }
-        printf("\n");
-    }
+
+        if (sub == i )
+            printf("%d\n",sub);
+ 
+     }
 
     return 0;
 }
