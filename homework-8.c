@@ -1,13 +1,13 @@
 ****************************************************************************
 ###  1
 
-#include <stdio.h>
-#include <math.h>
+ #include <stdio.h>
+ #include <math.h>
 
  int  prime(int x)
 
    {
-      int j;
+      int j = 0;
 
       for ( j = 2; j <= sqrt(x); j++)
         {
@@ -23,10 +23,12 @@
   int main ( void )
 
     {
-      int i;
+      int begin = 1;
+      int end = 100;
+      int i = 0;
       int max = 0;
 
-      for ( i = 2; i <= 100; i++)
+      for ( i = begin; i <= end; i++)
          {
             if (prime ( i ) == 1)
               max = i;
