@@ -27,7 +27,7 @@ int main(void)
 
 #include <stdio.h>
 
-int  main()
+ int main(void)
 
  {
      int i,max,a[5];
@@ -38,7 +38,6 @@ int  main()
         scanf("%d",&a[i]);
 
      max = a[0];
-
      for (i = 1; i < 5; i++)
          if (a[i] > max) max = a[i];
 
